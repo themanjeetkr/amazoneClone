@@ -1,0 +1,103 @@
+29
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display: flex;    
+        padding: 30px;  
+    }
+    .secOne{
+        padding: 0PX
+        height: 60vh;
+        width: 25vw;
+        display: flex;
+        /* align-items: center; */            
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid rgb(0, 0, 0);
+        margin: 4PX;
+    }
+    .secOne img{
+        height: 50vh;
+        width: 23vw;
+        object-fit: cover;
+    }
+    .secOne h2{
+        text-align: center;
+    }
+    .secOne p{
+        text-align: center;
+        
+    }
+    .secOne button{
+      
+        padding:2vh 1vw ;
+        background-color: black;
+        color: white;
+
+        margin:10px 10px;
+    }
+
+    @media (max-width:728px){
+        .main{    
+        padding: 0px; 
+        flex-direction: column; 
+        /* flex-wrap: wrap;  */
+    }
+    .secOne{
+      
+        height: 100%;
+        width: 100%;
+        /* border: 5px solid yellow; */
+        /* b !important; */
+ 
+    }
+    .secOne img{
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    }
+</style>
+<body>
+    <div class="main">
+        <!-- secOne -->
+        <div class="secOne">
+            <img src="https://www.thehomeplunge.com/cdn/shop/files/Ice_Bath_Best_Practices_Hero.jpg?v=1712065467&width=1780" alt="">
+            <h2>Cold Plunge Best Practices</h2>
+            <p>Ice baths can be a powerful tool for revitalizing well-being when done correctly. Discover Best Practices to make the most out of your cold plunge experience.</p>
+            <button>Click Here To Learn More</button>
+        </div>
+        <!-- secOne -->
+        <div class="secOne">
+            <img src="https://www.thehomeplunge.com/cdn/shop/files/Health_Benefits_Ice_Bath_-_Hero.jpg?v=1711464460&width=1500" alt="">
+            <h2>Benefits of ice bath</h2>
+            <p>Let's Address the hype behind ice baths and cold plunging. Read about all the benefits and what the latest science has to say.</p>
+            <button>Read About The Benefit</button>
+        </div>
+        <!-- secOne -->
+        <div class="secOne">
+            <img src="https://www.thehomeplunge.com/cdn/shop/files/why_people_take_ice_baths_hero.jpg?v=1711631083&width=1500" alt="">
+            <h2>Why Everyone Take bath</h2>
+            <p>Dive into the cold trend and discover the sudden popularity of ice baths, exploring their impact on health, recovery, and wellness routine</p>
+            <button>Find Out Why</button>
+        </div>
+        <!-- secOne -->
+        <div class="secOne">
+            <img src="https://www.thehomeplunge.com/cdn/shop/files/Ice_Bath_Best_Practices_Hero.jpg?v=1712065467&width=1780" alt="">
+            <h2>Cold Plunge Best Practices</h2>
+            <p>Ice baths can be a powerful tool for revitalizing well-being when done correctly. Discover Best Practices to make the most out of your cold plunge experience.</p>
+            <button>Click Here To Learn More</button>
+        </div>
+    </div>
+    
+</body>
+</html>

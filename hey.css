@@ -1,0 +1,13 @@
+.sectionOne{
+    height: 700px;
+    width: 400px;
+    
+}
+
+.capt{
+    text-transform: capitalize;
+    text-align: center;
+}
+.para1{
+    text-align: center;
+}
