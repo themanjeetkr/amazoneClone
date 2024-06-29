@@ -140,3 +140,41 @@
     background-repeat: no-repeat;
     margin-right: 15px;
 }
+.box1 p{
+    color: rgb(0, 119, 230);
+}
+.box-image2{
+ background-image: url('box2_image.jpg');
+ height: 235px;
+ width: 255px;
+ background-repeat: no repeat;
+ background-size: cover;
+ margin-right: 15px;
+}
+.box2 p{
+    margin-top: 63px;
+    color: rgb(0, 119, 230);
+}
+.box-image3{
+    background-image: url('box3_image.jpg');
+    height: 236px;
+
+}
+.box3 p{
+    color: rgb(0, 119, 230) ;
+    margin-top: 63px;
+}
+.box-image4{
+    background-image: url('box4_image.jpg');
+    height: 255px;
+}
+.box4 p{
+    margin-top: 44px;
+    color:  rgb(0, 119, 230);
+}
+
+
+
+
+    
+
